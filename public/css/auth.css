@@ -1,0 +1,29 @@
+
+.auth-content {
+    height: 10rem;
+    background-color: #f9eed2;
+}
+
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: lightgrey;
+}
+
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: green;
+}
+
+
+.alert {
+
+    width:50% !important;
+    padding:5px !important;
+}

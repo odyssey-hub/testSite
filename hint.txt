@@ -1,0 +1,21 @@
+Создание проекта
+laravel new example-app
+
+Создать контроллер
+php artisan make:controller MainController
+
+
+Создать модель
+php artisan make:model Contact -m
+
+Перегрузить конфиги
+php artisan cache clear
+php artisan config:cache
+
+
+Сделать миграцию
+php artisan migrate
+
+
+Сделать ссылку на storage
+php artisan storage:link
